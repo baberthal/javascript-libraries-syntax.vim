@@ -33,7 +33,7 @@ if version >= 508 || !exists("did_angularui_router_coffee_syntax_inits")
     command -nargs=+ HiLink hi def link <args>
   endif
 
-  HiLink coffeeUIRouter        Constant
+  HiLink coffeeUIRouter        Underline
 
   HiLink coffeeASstateProviderMethods           Function
   HiLink coffeeASurlRouterProviderMethods       Function

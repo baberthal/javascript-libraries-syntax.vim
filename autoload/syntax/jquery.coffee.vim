@@ -87,27 +87,27 @@ if version >= 508 || !exists("did_jquery_coffee_syntax_inits")
     command -nargs=+ HiLink hi def link <args>
   endif
 
-  HiLink coffeejQuery          Constant
+  HiLink coffeejQuery          Underline
 
-  HiLink coffeeQCore           PreProc
-  HiLink coffeeQCoreObj        PreProc
-  HiLink coffeeQCoreData       PreProc
+  HiLink coffeeQCore           Function
+  HiLink coffeeQCoreObj        Function
+  HiLink coffeeQCoreData       Function
 
-  HiLink coffeeQAjax           PreProc
-  HiLink coffeeQAttributes     PreProc
-  HiLink coffeeQCallbacks      PreProc
-  HiLink coffeeQCSS            PreProc
-  HiLink coffeeQData           PreProc
-  HiLink coffeeQDeferred       PreProc
-  HiLink coffeeQDimensions     PreProc
-  HiLink coffeeQEffects        PreProc
-  HiLink coffeeQEvents         PreProc
-  HiLink coffeeQManipulation   PreProc
-  HiLink coffeeQMiscellaneous  PreProc
-  HiLink coffeeQOffset         PreProc
-  HiLink coffeeQProperties     PreProc
-  HiLink coffeeQTraversing     PreProc
-  HiLink coffeeQUtilities      PreProc
+  HiLink coffeeQAjax           Function
+  HiLink coffeeQAttributes     Function
+  HiLink coffeeQCallbacks      Function
+  HiLink coffeeQCSS            Function
+  HiLink coffeeQData           Function
+  HiLink coffeeQDeferred       Function
+  HiLink coffeeQDimensions     Function
+  HiLink coffeeQEffects        Function
+  HiLink coffeeQEvents         Function
+  HiLink coffeeQManipulation   Function
+  HiLink coffeeQMiscellaneous  Function
+  HiLink coffeeQOffset         Function
+  HiLink coffeeQProperties     Function
+  HiLink coffeeQTraversing     Function
+  HiLink coffeeQUtilities      Function
 
   " HiLink cssId                     Identifier
   " HiLink cssClass                  Constant

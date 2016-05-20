@@ -87,27 +87,27 @@ if version >= 508 || !exists("did_jquery_typescript_syntax_inits")
     command -nargs=+ HiLink hi def link <args>
   endif
 
-  HiLink typescriptjQuery          Constant
+  HiLink typescriptjQuery          Underline
 
-  HiLink typescriptQCore           PreProc
-  HiLink typescriptQCoreObj        PreProc
-  HiLink typescriptQCoreData       PreProc
+  HiLink typescriptQCore           Function
+  HiLink typescriptQCoreObj        Function
+  HiLink typescriptQCoreData       Function
 
-  HiLink typescriptQAjax           PreProc
-  HiLink typescriptQAttributes     PreProc
-  HiLink typescriptQCallbacks      PreProc
-  HiLink typescriptQCSS            PreProc
-  HiLink typescriptQData           PreProc
-  HiLink typescriptQDeferred       PreProc
-  HiLink typescriptQDimensions     PreProc
-  HiLink typescriptQEffects        PreProc
-  HiLink typescriptQEvents         PreProc
-  HiLink typescriptQManipulation   PreProc
-  HiLink typescriptQMiscellaneous  PreProc
-  HiLink typescriptQOffset         PreProc
-  HiLink typescriptQProperties     PreProc
-  HiLink typescriptQTraversing     PreProc
-  HiLink typescriptQUtilities      PreProc
+  HiLink typescriptQAjax           Function
+  HiLink typescriptQAttributes     Function
+  HiLink typescriptQCallbacks      Function
+  HiLink typescriptQCSS            Function
+  HiLink typescriptQData           Function
+  HiLink typescriptQDeferred       Function
+  HiLink typescriptQDimensions     Function
+  HiLink typescriptQEffects        Function
+  HiLink typescriptQEvents         Function
+  HiLink typescriptQManipulation   Function
+  HiLink typescriptQMiscellaneous  Function
+  HiLink typescriptQOffset         Function
+  HiLink typescriptQProperties     Function
+  HiLink typescriptQTraversing     Function
+  HiLink typescriptQUtilities      Function
 
   " HiLink cssId                     Identifier
   " HiLink cssClass                  Constant

@@ -74,8 +74,8 @@ if version >= 508 || !exists("did_angularjs_coffee_syntax_inits")
     command -nargs=+ HiLink hi def link <args>
   endif
 
-  HiLink coffeeAngular         Constant
-  HiLink coffeeAServices       Constant
+  HiLink coffeeAngular         Underline
+  HiLink coffeeAServices       Underline
 
   HiLink coffeeAngularMethods  Function
   HiLink coffeeAMFunctions     Function

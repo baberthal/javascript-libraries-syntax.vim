@@ -87,27 +87,27 @@ if version >= 508 || !exists("did_jquery_ls_syntax_inits")
     command -nargs=+ HiLink hi def link <args>
   endif
 
-  HiLink lsjQuery          Constant
+  HiLink lsjQuery          Underline
 
-  HiLink lsQCore           PreProc
-  HiLink lsQCoreObj        PreProc
-  HiLink lsQCoreData       PreProc
+  HiLink lsQCore           Function
+  HiLink lsQCoreObj        Function
+  HiLink lsQCoreData       Function
 
-  HiLink lsQAjax           PreProc
-  HiLink lsQAttributes     PreProc
-  HiLink lsQCallbacks      PreProc
-  HiLink lsQCSS            PreProc
-  HiLink lsQData           PreProc
-  HiLink lsQDeferred       PreProc
-  HiLink lsQDimensions     PreProc
-  HiLink lsQEffects        PreProc
-  HiLink lsQEvents         PreProc
-  HiLink lsQManipulation   PreProc
-  HiLink lsQMiscellaneous  PreProc
-  HiLink lsQOffset         PreProc
-  HiLink lsQProperties     PreProc
-  HiLink lsQTraversing     PreProc
-  HiLink lsQUtilities      PreProc
+  HiLink lsQAjax           Function
+  HiLink lsQAttributes     Function
+  HiLink lsQCallbacks      Function
+  HiLink lsQCSS            Function
+  HiLink lsQData           Function
+  HiLink lsQDeferred       Function
+  HiLink lsQDimensions     Function
+  HiLink lsQEffects        Function
+  HiLink lsQEvents         Function
+  HiLink lsQManipulation   Function
+  HiLink lsQMiscellaneous  Function
+  HiLink lsQOffset         Function
+  HiLink lsQProperties     Function
+  HiLink lsQTraversing     Function
+  HiLink lsQUtilities      Function
 
   " HiLink cssId                     Identifier
   " HiLink cssClass                  Constant

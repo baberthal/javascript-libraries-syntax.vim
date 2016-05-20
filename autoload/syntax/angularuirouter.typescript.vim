@@ -33,7 +33,7 @@ if version >= 508 || !exists("did_angularui_router_typescript_syntax_inits")
     command -nargs=+ HiLink hi def link <args>
   endif
 
-  HiLink typescriptUIRouter        Constant
+  HiLink typescriptUIRouter        Underline
 
   HiLink typescriptASstateProviderMethods           Function
   HiLink typescriptASurlRouterProviderMethods       Function
