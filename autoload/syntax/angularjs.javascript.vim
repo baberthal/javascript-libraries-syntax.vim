@@ -16,12 +16,12 @@ syntax keyword javascriptAngularMethods contained mock module noop toJson upperc
 syntax keyword javascriptAServices containedin=ALLBUT,javascriptComment,javascriptLineComment,javascriptString $anchorScroll $cacheFactory $compile $controller $document
 syntax keyword javascriptAServices containedin=ALLBUT,javascriptComment,javascriptLineComment,javascriptString $exceptionHandler $filter $httpBackend
 syntax keyword javascriptAServices containedin=ALLBUT,javascriptComment,javascriptLineComment,javascriptString $locale $parse $rootElement
-syntax keyword javascriptAServices containedin=ALLBUT,javascriptComment,javascriptLineComment,javascriptString $routeParams $templateCache $window 
+syntax keyword javascriptAServices containedin=ALLBUT,javascriptComment,javascriptLineComment,javascriptString $routeParams $templateCache $window
 syntax keyword javascriptAServices containedin=ALLBUT,javascriptComment,javascriptLineComment,javascriptString $cookies $resource $sanitize
 
 syntax keyword javascriptAServices containedin=ALLBUT,javascriptComment,javascriptLineComment,javascriptString $http nextgroup=javascriptAShttpdot
 syntax match   javascriptAShttpdot contained /\./ nextgroup=javascriptAShttpMethods
-syntax keyword javascriptAShttpMethods contained get head post put delete jsonp defaults prendingRequests 
+syntax keyword javascriptAShttpMethods contained get head post put delete jsonp defaults prendingRequests
 
 syntax keyword javascriptAServices containedin=ALLBUT,javascriptComment,javascriptLineComment,javascriptString $interpolate nextgroup=javascriptASinterpolatedot
 syntax match   javascriptASinterpolatedot contained /\./ nextgroup=javascriptASinterpolateMethods
@@ -77,19 +77,19 @@ if version >= 508 || !exists("did_angularjs_javascript_syntax_inits")
   HiLink javascriptAngular         Constant
   HiLink javascriptAServices       Constant
 
-  HiLink javascriptAngularMethods  PreProc
-  HiLink javascriptAMFunctions     PreProc
-  HiLink javascriptAMAttrs         PreProc
+  HiLink javascriptAngularMethods  Function
+  HiLink javascriptAMFunctions     Function
+  HiLink javascriptAMAttrs         Function
 
-  HiLink javascriptAShttpMethods        PreProc
-  HiLink javascriptASinterpolateMethods PreProc
-  HiLink javascriptASlocationMethods    PreProc
-  HiLink javascriptASlogMethods         PreProc
-  HiLink javascriptASqMethods           PreProc
-  HiLink javascriptASrouteMethods       PreProc
-  HiLink javascriptAStimeoutMethods     PreProc
-  HiLink javascriptASscopeMethods       PreProc
-  HiLink javascriptAScookieStoreMethods PreProc
+  HiLink javascriptAShttpMethods        Function
+  HiLink javascriptASinterpolateMethods Function
+  HiLink javascriptASlocationMethods    Function
+  HiLink javascriptASlogMethods         Function
+  HiLink javascriptASqMethods           Function
+  HiLink javascriptASrouteMethods       Function
+  HiLink javascriptAStimeoutMethods     Function
+  HiLink javascriptASscopeMethods       Function
+  HiLink javascriptAScookieStoreMethods Function
 
   delcommand HiLink
 endif

@@ -48,17 +48,17 @@ if version >= 508 || !exists("did_requirejs_javascript_syntax_inits")
   endif
 
   HiLink javascriptJasmine         Constant
-  HiLink javascriptJMethods        PreProc
-  HiLink javascriptJEnvMethods     PreProc
-  HiLink javascriptJClockMethods   PreProc
-  HiLink javascriptJGlobalMethod   PreProc
-  HiLink javascriptJSpyAnd         PreProc
-  HiLink javascriptJSpyAndMethods  PreProc
-  HiLink javascriptJSpyCalls       PreProc
-  HiLink javascriptJSpyMethods     PreProc
-  HiLink javascriptJCallsMethods   PreProc
-  HiLink javascriptJExpectNot      PreProc
-  HiLink javascriptJExpectMethods  PreProc
+  HiLink javascriptJMethods        Function
+  HiLink javascriptJEnvMethods     Function
+  HiLink javascriptJClockMethods   Function
+  HiLink javascriptJGlobalMethod   Function
+  HiLink javascriptJSpyAnd         Function
+  HiLink javascriptJSpyAndMethods  Function
+  HiLink javascriptJSpyCalls       Function
+  HiLink javascriptJSpyMethods     Function
+  HiLink javascriptJCallsMethods   Function
+  HiLink javascriptJExpectNot      Function
+  HiLink javascriptJExpectMethods  Function
 
   delcommand HiLink
 endif

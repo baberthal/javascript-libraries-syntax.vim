@@ -35,10 +35,10 @@ if version >= 508 || !exists("did_angularui_router_ls_syntax_inits")
 
   HiLink lsUIRouter        Constant
 
-  HiLink lsASstateProviderMethods           PreProc
-  HiLink lsASurlRouterProviderMethods       PreProc
-  HiLink lsASstateMethods                   PreProc
-  HiLink lsASurlRouterMethods               PreProc
+  HiLink lsASstateProviderMethods           Function
+  HiLink lsASurlRouterProviderMethods       Function
+  HiLink lsASstateMethods                   Function
+  HiLink lsASurlRouterMethods               Function
 
   delcommand HiLink
 endif

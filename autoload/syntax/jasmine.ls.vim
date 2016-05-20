@@ -48,17 +48,17 @@ if version >= 508 || !exists("did_requirejs_ls_syntax_inits")
   endif
 
   HiLink lsJasmine         Constant
-  HiLink lsJMethods        PreProc
-  HiLink lsJEnvMethods     PreProc
-  HiLink lsJClockMethods   PreProc
-  HiLink lsJGlobalMethod   PreProc
-  HiLink lsJSpyAnd         PreProc
-  HiLink lsJSpyAndMethods  PreProc
-  HiLink lsJSpyCalls       PreProc
-  HiLink lsJSpyMethods     PreProc
-  HiLink lsJCallsMethods   PreProc
-  HiLink lsJExpectNot      PreProc
-  HiLink lsJExpectMethods  PreProc
+  HiLink lsJMethods        Function
+  HiLink lsJEnvMethods     Function
+  HiLink lsJClockMethods   Function
+  HiLink lsJGlobalMethod   Function
+  HiLink lsJSpyAnd         Function
+  HiLink lsJSpyAndMethods  Function
+  HiLink lsJSpyCalls       Function
+  HiLink lsJSpyMethods     Function
+  HiLink lsJCallsMethods   Function
+  HiLink lsJExpectNot      Function
+  HiLink lsJExpectMethods  Function
 
   delcommand HiLink
 endif

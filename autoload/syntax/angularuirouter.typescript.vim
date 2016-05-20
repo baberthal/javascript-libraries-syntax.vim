@@ -35,10 +35,10 @@ if version >= 508 || !exists("did_angularui_router_typescript_syntax_inits")
 
   HiLink typescriptUIRouter        Constant
 
-  HiLink typescriptASstateProviderMethods           PreProc
-  HiLink typescriptASurlRouterProviderMethods       PreProc
-  HiLink typescriptASstateMethods                   PreProc
-  HiLink typescriptASurlRouterMethods               PreProc
+  HiLink typescriptASstateProviderMethods           Function
+  HiLink typescriptASurlRouterProviderMethods       Function
+  HiLink typescriptASstateMethods                   Function
+  HiLink typescriptASurlRouterMethods               Function
 
   delcommand HiLink
 endif

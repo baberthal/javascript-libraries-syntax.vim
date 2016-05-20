@@ -48,17 +48,17 @@ if version >= 508 || !exists("did_requirejs_coffee_syntax_inits")
   endif
 
   HiLink coffeeJasmine         Constant
-  HiLink coffeeJMethods        PreProc
-  HiLink coffeeJEnvMethods     PreProc
-  HiLink coffeeJClockMethods   PreProc
-  HiLink coffeeJGlobalMethod   PreProc
-  HiLink coffeeJSpyAnd         PreProc
-  HiLink coffeeJSpyAndMethods  PreProc
-  HiLink coffeeJSpyCalls       PreProc
-  HiLink coffeeJSpyMethods     PreProc
-  HiLink coffeeJCallsMethods   PreProc
-  HiLink coffeeJExpectNot      PreProc
-  HiLink coffeeJExpectMethods  PreProc
+  HiLink coffeeJMethods        Function
+  HiLink coffeeJEnvMethods     Function
+  HiLink coffeeJClockMethods   Function
+  HiLink coffeeJGlobalMethod   Function
+  HiLink coffeeJSpyAnd         Function
+  HiLink coffeeJSpyAndMethods  Function
+  HiLink coffeeJSpyCalls       Function
+  HiLink coffeeJSpyMethods     Function
+  HiLink coffeeJCallsMethods   Function
+  HiLink coffeeJExpectNot      Function
+  HiLink coffeeJExpectMethods  Function
 
   delcommand HiLink
 endif

@@ -16,12 +16,12 @@ syntax keyword coffeeAngularMethods contained mock module noop toJson uppercase 
 syntax keyword coffeeAServices containedin=ALLBUT,coffeeComment,coffeeLineComment,coffeeString $anchorScroll $cacheFactory $compile $controller $document
 syntax keyword coffeeAServices containedin=ALLBUT,coffeeComment,coffeeLineComment,coffeeString $exceptionHandler $filter $httpBackend
 syntax keyword coffeeAServices containedin=ALLBUT,coffeeComment,coffeeLineComment,coffeeString $locale $parse $rootElement
-syntax keyword coffeeAServices containedin=ALLBUT,coffeeComment,coffeeLineComment,coffeeString $routeParams $templateCache $window 
+syntax keyword coffeeAServices containedin=ALLBUT,coffeeComment,coffeeLineComment,coffeeString $routeParams $templateCache $window
 syntax keyword coffeeAServices containedin=ALLBUT,coffeeComment,coffeeLineComment,coffeeString $cookies $resource $sanitize
 
 syntax keyword coffeeAServices containedin=ALLBUT,coffeeComment,coffeeLineComment,coffeeString $http nextgroup=coffeeAShttpdot
 syntax match   coffeeAShttpdot contained /\./ nextgroup=coffeeAShttpMethods
-syntax keyword coffeeAShttpMethods contained get head post put delete jsonp defaults prendingRequests 
+syntax keyword coffeeAShttpMethods contained get head post put delete jsonp defaults prendingRequests
 
 syntax keyword coffeeAServices containedin=ALLBUT,coffeeComment,coffeeLineComment,coffeeString $interpolate nextgroup=coffeeASinterpolatedot
 syntax match   coffeeASinterpolatedot contained /\./ nextgroup=coffeeASinterpolateMethods
@@ -77,19 +77,19 @@ if version >= 508 || !exists("did_angularjs_coffee_syntax_inits")
   HiLink coffeeAngular         Constant
   HiLink coffeeAServices       Constant
 
-  HiLink coffeeAngularMethods  PreProc
-  HiLink coffeeAMFunctions     PreProc
-  HiLink coffeeAMAttrs         PreProc
+  HiLink coffeeAngularMethods  Function
+  HiLink coffeeAMFunctions     Function
+  HiLink coffeeAMAttrs         Function
 
-  HiLink coffeeAShttpMethods        PreProc
-  HiLink coffeeASinterpolateMethods PreProc
-  HiLink coffeeASlocationMethods    PreProc
-  HiLink coffeeASlogMethods         PreProc
-  HiLink coffeeASqMethods           PreProc
-  HiLink coffeeASrouteMethods       PreProc
-  HiLink coffeeAStimeoutMethods     PreProc
-  HiLink coffeeASscopeMethods       PreProc
-  HiLink coffeeAScookieStoreMethods PreProc
+  HiLink coffeeAShttpMethods        Function
+  HiLink coffeeASinterpolateMethods Function
+  HiLink coffeeASlocationMethods    Function
+  HiLink coffeeASlogMethods         Function
+  HiLink coffeeASqMethods           Function
+  HiLink coffeeASrouteMethods       Function
+  HiLink coffeeAStimeoutMethods     Function
+  HiLink coffeeASscopeMethods       Function
+  HiLink coffeeAScookieStoreMethods Function
 
   delcommand HiLink
 endif

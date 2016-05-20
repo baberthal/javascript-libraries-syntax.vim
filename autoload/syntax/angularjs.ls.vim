@@ -16,12 +16,12 @@ syntax keyword lsAngularMethods contained mock module noop toJson uppercase vers
 syntax keyword lsAServices containedin=ALLBUT,lsComment,lsLineComment,lsString $anchorScroll $cacheFactory $compile $controller $document
 syntax keyword lsAServices containedin=ALLBUT,lsComment,lsLineComment,lsString $exceptionHandler $filter $httpBackend
 syntax keyword lsAServices containedin=ALLBUT,lsComment,lsLineComment,lsString $locale $parse $rootElement
-syntax keyword lsAServices containedin=ALLBUT,lsComment,lsLineComment,lsString $routeParams $templateCache $window 
+syntax keyword lsAServices containedin=ALLBUT,lsComment,lsLineComment,lsString $routeParams $templateCache $window
 syntax keyword lsAServices containedin=ALLBUT,lsComment,lsLineComment,lsString $cookies $resource $sanitize
 
 syntax keyword lsAServices containedin=ALLBUT,lsComment,lsLineComment,lsString $http nextgroup=lsAShttpdot
 syntax match   lsAShttpdot contained /\./ nextgroup=lsAShttpMethods
-syntax keyword lsAShttpMethods contained get head post put delete jsonp defaults prendingRequests 
+syntax keyword lsAShttpMethods contained get head post put delete jsonp defaults prendingRequests
 
 syntax keyword lsAServices containedin=ALLBUT,lsComment,lsLineComment,lsString $interpolate nextgroup=lsASinterpolatedot
 syntax match   lsASinterpolatedot contained /\./ nextgroup=lsASinterpolateMethods
@@ -77,19 +77,19 @@ if version >= 508 || !exists("did_angularjs_ls_syntax_inits")
   HiLink lsAngular         Constant
   HiLink lsAServices       Constant
 
-  HiLink lsAngularMethods  PreProc
-  HiLink lsAMFunctions     PreProc
-  HiLink lsAMAttrs         PreProc
+  HiLink lsAngularMethods  Function
+  HiLink lsAMFunctions     Function
+  HiLink lsAMAttrs         Function
 
-  HiLink lsAShttpMethods        PreProc
-  HiLink lsASinterpolateMethods PreProc
-  HiLink lsASlocationMethods    PreProc
-  HiLink lsASlogMethods         PreProc
-  HiLink lsASqMethods           PreProc
-  HiLink lsASrouteMethods       PreProc
-  HiLink lsAStimeoutMethods     PreProc
-  HiLink lsASscopeMethods       PreProc
-  HiLink lsAScookieStoreMethods PreProc
+  HiLink lsAShttpMethods        Function
+  HiLink lsASinterpolateMethods Function
+  HiLink lsASlocationMethods    Function
+  HiLink lsASlogMethods         Function
+  HiLink lsASqMethods           Function
+  HiLink lsASrouteMethods       Function
+  HiLink lsAStimeoutMethods     Function
+  HiLink lsASscopeMethods       Function
+  HiLink lsAScookieStoreMethods Function
 
   delcommand HiLink
 endif

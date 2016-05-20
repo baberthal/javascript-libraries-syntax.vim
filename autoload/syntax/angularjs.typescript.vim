@@ -16,12 +16,12 @@ syntax keyword typescriptAngularMethods contained mock module noop toJson upperc
 syntax keyword typescriptAServices containedin=ALLBUT,typescriptComment,typescriptLineComment,typescriptString $anchorScroll $cacheFactory $compile $controller $document
 syntax keyword typescriptAServices containedin=ALLBUT,typescriptComment,typescriptLineComment,typescriptString $exceptionHandler $filter $httpBackend
 syntax keyword typescriptAServices containedin=ALLBUT,typescriptComment,typescriptLineComment,typescriptString $locale $parse $rootElement
-syntax keyword typescriptAServices containedin=ALLBUT,typescriptComment,typescriptLineComment,typescriptString $routeParams $templateCache $window 
+syntax keyword typescriptAServices containedin=ALLBUT,typescriptComment,typescriptLineComment,typescriptString $routeParams $templateCache $window
 syntax keyword typescriptAServices containedin=ALLBUT,typescriptComment,typescriptLineComment,typescriptString $cookies $resource $sanitize
 
 syntax keyword typescriptAServices containedin=ALLBUT,typescriptComment,typescriptLineComment,typescriptString $http nextgroup=typescriptAShttpdot
 syntax match   typescriptAShttpdot contained /\./ nextgroup=typescriptAShttpMethods
-syntax keyword typescriptAShttpMethods contained get head post put delete jsonp defaults prendingRequests 
+syntax keyword typescriptAShttpMethods contained get head post put delete jsonp defaults prendingRequests
 
 syntax keyword typescriptAServices containedin=ALLBUT,typescriptComment,typescriptLineComment,typescriptString $interpolate nextgroup=typescriptASinterpolatedot
 syntax match   typescriptASinterpolatedot contained /\./ nextgroup=typescriptASinterpolateMethods
@@ -77,19 +77,19 @@ if version >= 508 || !exists("did_angularjs_typescript_syntax_inits")
   HiLink typescriptAngular         Constant
   HiLink typescriptAServices       Constant
 
-  HiLink typescriptAngularMethods  PreProc
-  HiLink typescriptAMFunctions     PreProc
-  HiLink typescriptAMAttrs         PreProc
+  HiLink typescriptAngularMethods  Function
+  HiLink typescriptAMFunctions     Function
+  HiLink typescriptAMAttrs         Function
 
-  HiLink typescriptAShttpMethods        PreProc
-  HiLink typescriptASinterpolateMethods PreProc
-  HiLink typescriptASlocationMethods    PreProc
-  HiLink typescriptASlogMethods         PreProc
-  HiLink typescriptASqMethods           PreProc
-  HiLink typescriptASrouteMethods       PreProc
-  HiLink typescriptAStimeoutMethods     PreProc
-  HiLink typescriptASscopeMethods       PreProc
-  HiLink typescriptAScookieStoreMethods PreProc
+  HiLink typescriptAShttpMethods        Function
+  HiLink typescriptASinterpolateMethods Function
+  HiLink typescriptASlocationMethods    Function
+  HiLink typescriptASlogMethods         Function
+  HiLink typescriptASqMethods           Function
+  HiLink typescriptASrouteMethods       Function
+  HiLink typescriptAStimeoutMethods     Function
+  HiLink typescriptASscopeMethods       Function
+  HiLink typescriptAScookieStoreMethods Function
 
   delcommand HiLink
 endif

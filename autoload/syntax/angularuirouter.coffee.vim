@@ -35,10 +35,10 @@ if version >= 508 || !exists("did_angularui_router_coffee_syntax_inits")
 
   HiLink coffeeUIRouter        Constant
 
-  HiLink coffeeASstateProviderMethods           PreProc
-  HiLink coffeeASurlRouterProviderMethods       PreProc
-  HiLink coffeeASstateMethods                   PreProc
-  HiLink coffeeASurlRouterMethods               PreProc
+  HiLink coffeeASstateProviderMethods           Function
+  HiLink coffeeASurlRouterProviderMethods       Function
+  HiLink coffeeASstateMethods                   Function
+  HiLink coffeeASurlRouterMethods               Function
 
   delcommand HiLink
 endif
