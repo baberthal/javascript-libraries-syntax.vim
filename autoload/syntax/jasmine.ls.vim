@@ -47,7 +47,7 @@ if version >= 508 || !exists("did_requirejs_ls_syntax_inits")
     command -nargs=+ HiLink hi def link <args>
   endif
 
-  HiLink lsJasmine         Underline
+  HiLink lsJasmine         Underlined
   HiLink lsJMethods        Function
   HiLink lsJEnvMethods     Function
   HiLink lsJClockMethods   Function

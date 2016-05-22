@@ -47,7 +47,7 @@ if version >= 508 || !exists("did_requirejs_coffee_syntax_inits")
     command -nargs=+ HiLink hi def link <args>
   endif
 
-  HiLink coffeeJasmine         Underline
+  HiLink coffeeJasmine         Underlined
   HiLink coffeeJMethods        Function
   HiLink coffeeJEnvMethods     Function
   HiLink coffeeJClockMethods   Function

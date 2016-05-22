@@ -74,8 +74,8 @@ if version >= 508 || !exists("did_angularjs_ls_syntax_inits")
     command -nargs=+ HiLink hi def link <args>
   endif
 
-  HiLink lsAngular         Underline
-  HiLink lsAServices       Underline
+  HiLink lsAngular         Underlined
+  HiLink lsAServices       Underlined
 
   HiLink lsAngularMethods  Function
   HiLink lsAMFunctions     Function

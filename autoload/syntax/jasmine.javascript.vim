@@ -47,7 +47,7 @@ if version >= 508 || !exists("did_requirejs_javascript_syntax_inits")
     command -nargs=+ HiLink hi def link <args>
   endif
 
-  HiLink javascriptJasmine         Underline
+  HiLink javascriptJasmine         Underlined
   HiLink javascriptJMethods        Function
   HiLink javascriptJEnvMethods     Function
   HiLink javascriptJClockMethods   Function

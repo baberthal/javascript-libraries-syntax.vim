@@ -87,7 +87,7 @@ if version >= 508 || !exists("did_jquery_coffee_syntax_inits")
     command -nargs=+ HiLink hi def link <args>
   endif
 
-  HiLink coffeejQuery          Underline
+  HiLink coffeejQuery          Constant
 
   HiLink coffeeQCore           Function
   HiLink coffeeQCoreObj        Function

@@ -87,7 +87,7 @@ if version >= 508 || !exists("did_jquery_typescript_syntax_inits")
     command -nargs=+ HiLink hi def link <args>
   endif
 
-  HiLink typescriptjQuery          Underline
+  HiLink typescriptjQuery          Constant
 
   HiLink typescriptQCore           Function
   HiLink typescriptQCoreObj        Function

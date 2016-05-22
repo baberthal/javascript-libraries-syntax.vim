@@ -87,7 +87,7 @@ if version >= 508 || !exists("did_jquery_javascript_syntax_inits")
     command -nargs=+ HiLink hi def link <args>
   endif
 
-  HiLink javascriptjQuery          Underline
+  HiLink javascriptjQuery          Constant
 
   HiLink javascriptQCore           Function
   HiLink javascriptQCoreObj        Function
